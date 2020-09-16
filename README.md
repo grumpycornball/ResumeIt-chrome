@@ -4,11 +4,11 @@ This is small project I created few months back this repository is part of the p
 
 You can either build the project from scratch or simply download the extention from chrome webstore.
 
-#Chrome Webstore
+# Chrome Webstore
 
 https://chrome.google.com/webstore/detail/resumeit/fpgoaioabjkgnoaiofegpdicobmpifhc
 
-#Build from scratch
+# Build from scratch
 
 How to build:
 
