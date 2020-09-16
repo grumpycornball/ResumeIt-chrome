@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "ResumeIt",
+  "description": "This extention is a part of ResumtIt app for android",
+  "version": "0.1",
+  "icons": {
+    "128": "icon/icon128.png",
+    "48": "icon/icon48.png",
+    "16": "icon/icon16.png"
+  },
+  "browser_action": {
+    "default_icon": "icon/icon16.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
+}

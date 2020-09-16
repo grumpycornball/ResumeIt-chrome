@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<html lang="en">
+
+<head>
+  <title>Resume-It- chrome extention</title>
+  <link rel="stylesheet" href="./bootstrap.css">
+</head>
+
+<body>
+
+  <div id="divInner">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-1">
+          <input id="otp-enter" type="text" maxlength="6" onKeyPress="if(this.value.length==6) return false;" />
+        </div>
+        <div class="col-1">
+          <div class="spinner-border text-primary" role="status" id="progress_bar">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+          <button class="btn btn-primary" id="signin-button" value="signin-google">RefreshToken</button>
+        </div>
+
+        <div class="col-1">
+          <button class="btn btn-primary" id="signin-push" value="signin-google">SendPayload</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="../dist/main.js"></script>
+
+</html>

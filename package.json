@@ -1,0 +1,29 @@
+{
+  "name": "resumeit",
+  "version": "1.0.0",
+  "description": "A JavaScript project",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./node_modules/parcel-bundler/bin/cli serve ./src/index.html --port 8080",
+    "build": "node ./node_modules/parcel-bundler/bin/cli build ./src/index.html --out-dir ./dist/",
+    "clean": "rm  E:/Builds_new/LearnJavascript2/resumeit/dist/main.*js",
+    "lint": "node ./node_modules/eslint/bin/eslint . --ext .js --fix",
+    "webby": "webpack src/js/main.js dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "chags",
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "parcel-bundler": "^1.12.4",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "firebase": "^7.15.3",
+    "firebase-tools": "^8.4.2",
+    "jquery": "^3.5.1",
+    "webpack": "^4.43.0"
+  }
+}
